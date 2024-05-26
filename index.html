@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" 
+        />
+        
+        <link rel="stylesheet" type="text/css" 
+            href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet"/>
+
+        <link rel="stylesheet" href="./style/output.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <!--header-->
+        <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+            <div class="w-full h-full flex flex-col justify-center items-center">
+                <img src="./assets/burguer logo.png" 
+                alt="logo-burguer"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+                />
+                <h1 class="w-4xl mt-4 mb-2 font-bold text-white">Fast-Heat</h1>
+                <span class="text-white font-medium mb-2"> Rua 1 - Cacuaco </span>
+            
+                <div>
+                    <span class="bg-green-600 px-4 py-1 rounded-lg mt-5 text-white font-medium" id="date-span"> Seg - Sab das 8h as 22h</span>
+                </div>
+                
+            
+            </div>
+        </header>
+        <!--fim do header-->
+
+
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+            CONHEÇA NOSSO MENU
+        </h2>
+
+        <!--inicio menu-->
+
+        <div id="menu">
+            <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <img src="./assets/hamburguer_1.png" 
+                    alt="hamb1"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <!--iten 1-->
+                        <p class="font-bold">hamburguer smash</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 1000</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer smash"
+                            data-price="1000"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <!--iten 2-->
+                    <img src="./assets/hamburguer_2.png" 
+                    alt="hamb_2"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">hamburguer big</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 1500</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer big"
+                            data-price="1500"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <!--iten 3-->
+                    <img src="./assets/hamburguer_3.png" 
+                    alt="hamb3"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">hamburguer bit</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 2000</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer bit"
+                            data-price="2000"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <!--iten 4-->
+                    <img src="./assets/hamburguer_4.png" 
+                    alt="hamb4"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">hamburguer mega</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 2500</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer mega"
+                            data-price="2500"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <!--iten 5-->
+                    <img src="./assets/hamburguer_5.png" 
+                    alt="hamb5"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">hamburguer super</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 3000</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer super"
+                            data-price="3000"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+                <!--produtos intens-->
+                <div class="flex gap-2">
+                    <!--iten 6-->
+                    <img src="./assets/hamburguer_6.png" 
+                    alt="hamb6"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">hamburguer hiper</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 3500</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="hamburguer hiper"
+                            data-price="3500"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+            </main>
+
+            <div class="mx-auto max-w-7xl px-2 my-2">
+                <h2 class="font-bold text-3xl">Bebidas</h2>
+            </div>
+
+            <!--grid bebidas-->
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+                <!--produtos intens bebidas-->
+                <div class="flex gap-2 w-full">
+                    <!--iten 6-->
+                    <img src="./assets/coca-lata.png" 
+                    alt="coca-lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div class=" w-full">
+                        <p class="font-bold">Coca Lata</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 600</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="coca lata"
+                            data-price="600"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+
+                <!--produtos intens bebida-->
+                <div class="flex gap-2">
+                    <!--iten 6-->
+                    <img src="./assets/pepsi-lara.png" 
+                    alt="pepsi lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 
+                    hover:-rotate-2 duration-300"
+                    />
+                    <div>
+                        <p class="font-bold">Pepsi Lata</p>
+                        <p class="text-sm">
+                            Lorem ipsum dolor sit amet.
+                            Aut voluptatem provident nam
+                            suscipit ullam aut voluptates
+                            nisi et error quam est nesciunt
+                            quisquam id eius distinctio.
+                        </p>
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">AKZ 600</p>
+                            <button 
+                            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                            data-name="pepsi lata"
+                            data-price="600"
+                            >
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--fom produtos intens-->
+            </div>
+
+            <!--fim grid bebidas-->
+
+        </div>
+        <!--fim menu-->
+        <!--modal cart-->
+
+        <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+        id="cart-modal"
+        >
+           
+            <div class="bg-white p-5 roounded-md min-w-[90%] md:min-w-[600px]">
+                <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+                
+                <div id="cart-itens" class="flex justify-between mb-2 flex-col">
+
+                </div>
+                <p class="font-bold">total: <span id="cart-total">0.00</span></p>
+                <p class="font-bold mt-4">Endereço de entrega</p>
+                <input type="text"
+                placeholder="Digite o seu endereço"
+                id="address"
+                class="w-full border-2 p-1 rounded my-1" 
+                />
+
+                <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo</p>
+
+                
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="close-modal-btn">
+                        Fechar
+                    </button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">
+                        Finalizar Pedido
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!--fim modal cart-->
+             <!--footer-->
+            <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+                <button class="flex items-center gap-2 text-white font-bold"
+                        id="cart-btn"
+                >
+                    (<span id="cart-count">0</span>)
+                    Veja seu Carrinho
+                    <i class="fa fa-cart-plus text-lg text-white "></i>
+                </button>
+            </footer>
+            <!--fim footer-->
+
+
+
+
+
+
+
+
+
+
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+            <script src="script.js"></script>
+    </body>
+</html>
